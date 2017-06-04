@@ -1,0 +1,4 @@
+#+TITLE: experiments using the Shen programming language (see http://shenlanguage.org)
+#+AUTHOR: Mac Radigan
+
+ # *EOF* 
