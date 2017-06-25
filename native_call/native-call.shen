@@ -1,12 +1,13 @@
 (\* native-call.shen *\)
 (\* Mac Radigan *\)
 
-  (\* enable type checking *\)
-  (tc +)
+  (define main ->
+    (lisp.progn 
+      (lisp.load "native-call.fasl")
+      (lisp.native-call)
+    )
+  )
 
-  (lisp.print "call...")
-
-  (lisp.load "native-call.fasl")
-  (lisp.native-call)
+  (main)
 
 (\* *EOF* *\)
